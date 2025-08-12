@@ -1,97 +1,75 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# GlowCart 💄
 
-# Getting Started
+GlowCart is a modern, cross-platform e-commerce mobile application for beauty products, built with React Native and Expo. It provides a seamless shopping experience, from browsing products to managing a shopping cart and user profile.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## ✨ Features
 
-## Step 1: Start Metro
+- **Authentication Flow**: Simple and elegant screens for Onboarding, Login, and Registration.
+- **Product Discovery**: A clean home screen with a grid of products and a functional search bar.
+- **Detailed Product View**: Users can tap on any product to see more details, including brand, price, description, and user reviews with star ratings.
+- **Shopping Cart**: Fully functional cart system where users can add items, adjust quantities, and see the total price.
+- **User Profile**: A dedicated screen for users to view their details and access app settings.
+- **Bottom Tab Navigator**: A modern, easy-to-use tab bar for navigating between the main sections of the app.
+- **Toast Notifications**: Non-intrusive pop-up messages for actions like adding an item to the cart.
+- **Reusable Components**: The app is built on a set of reusable, themed components for a consistent and professional look and feel.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## 📂 Folder Structure
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+The project is organized by feature type to keep the codebase clean and scalable.
 
-```sh
-# Using npm
-npm start
 
-# OR using Yarn
-yarn start
-```
+GlowCart/
+|
++--- assets/            # App icons, splash screens, and images
+|
++--- src/
+|    |--- components/    # Reusable UI components (Button, Header, etc.)
+|    |--- context/       # Global state management (Cart, Products)
+|    |--- screens/       # Top-level screen components
+|    +--- utils/        # Utility functions (e.g., api.js)
+|
++--- App.js             # Main app entry point and navigation setup
++--- package.json       # Project dependencies and scripts
+...
 
-## Step 2: Build and run your app
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+## 🚀 Getting Started
 
-### Android
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing.
 
-```sh
-# Using npm
-npm run android
+### Prerequisites
 
-# OR using Yarn
-yarn android
-```
+- **Node.js**: Make sure you have Node.js (LTS version) installed. You can download it from [nodejs.org](https://nodejs.org/).
+- **Expo Go App**: You will need the Expo Go app on your physical Android or iOS device, or an Android Emulator set up on your computer.
 
-### iOS
+### Installation & Setup
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/Adityakumar1323/Glow-cart-app.git](https://github.com/Adityakumar1323/Glow-cart-app.git)
+    ```
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+2.  **Navigate to the project directory**
+    ```bash
+    cd Glow-cart-app
+    ```
 
-```sh
-bundle install
-```
+3.  **Install NPM packages**
+    This will install all the necessary dependencies listed in `package.json`.
+    ```bash
+    npm install
+    ```
 
-Then, and every time you update your native dependencies, run:
+4.  **Start the development server**
+    This command will start the Metro bundler. The `-c` flag is recommended to clear the cache on first run.
+    ```bash
+    npx expo start -c
+    ```
 
-```sh
-bundle exec pod install
-```
+### Running the App
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+1.  **On a physical device**: Scan the QR code displayed in the terminal with the Expo Go app on your phone.
+2.  **On an Android Emulator**: Press `a` in the terminal after the server has started.
 
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+---
+Made with ❤️ for a great shopping experience.
