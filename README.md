@@ -15,7 +15,8 @@ GlowCart is a modern, cross-platform e-commerce mobile application for beauty pr
 
 ## 📸 Screenshots
 
-*(You can add your own screenshots here. Upload them to your GitHub repository and replace the placeholder links.)*
+*(You can add your own screenshots here. Upload them to your GitHub repository and replace the placeholder links.)*<img width="489" height="1088" alt="image" src="https://github.com/user-attachments/assets/c5fe7edf-0e1a-4b14-b04d-51711bb8c81d" />
+Registerscreen
 
 | Onboarding | Home Screen | Product Details | Profile |
 | :---: | :---: | :---: | :---: |
