@@ -22,7 +22,8 @@ Registerscreen
 | :---: | :---: | :---: | :---: |
 | ![Onboarding Screen]<img width="489" height="1097" alt="image" src="https://github.com/user-attachments/assets/f9c81241-ed20-4270-85ae-a9e9c14a00b4" />
 png) | ![Product Details Screen](link-to-your-product-details-sc <img width="498" height="1024" alt="image" src="https://github.com/user-attachments/assets/5f21a738-943b-4c0a-8c80-3bed9b0b9d0e" />
- Login screen <img width="498" height="1099" alt="image" src="https://github.com/user-attachments/assets/183c50af-0398-4b22-8ac9-1a6e27ef120f" />
+ Login screen <img width="498" height="1099" alt="image" src="https://github.com/user-attachments/assets/183c50af-0398-4b22-8ac9-1a6e27ef120f" /> profuctscreen <img width="496" height="1026" alt="image" src="https://github.com/user-attachments/assets/9f181d57-3cfd-4b29-9933-723ee4bf52be" />
+
 
 reenshot.png) | ![Profile Screen](link-to-your-profile<img width="561" height="1199" alt="Screenshot 2025-08-12 182647" src="https://github.com/user-attachments/assets/1db4c772-cdce-4b25-8d40-ce62017602f8" />
 -screenshot.png) |
