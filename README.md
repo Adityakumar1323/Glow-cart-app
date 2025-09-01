@@ -25,8 +25,7 @@ png) | ![Product Details Screen](link-to-your-product-details-sc <img width="498
  Login screen <img width="498" height="1099" alt="image" src="https://github.com/user-attachments/assets/183c50af-0398-4b22-8ac9-1a6e27ef120f" /> profuctscreen <img width="496" height="1026" alt="image" src="https://github.com/user-attachments/assets/9f181d57-3cfd-4b29-9933-723ee4bf52be" />
 
 
-reenshot.png) | ![Profile Screen](link-to-your-profile<img width="561" height="1199" alt="Screenshot 2025-08-12 182647" src="https://github.com/user-attachments/assets/1db4c772-cdce-4b25-8d40-ce62017602f8" />
--screenshot.png) |
+reenshot.png) | ![Profile Screen](link-to-your-profile<img width="501" height="1033" alt="image" src="https://github.com/user-attachments/assets/2bf8b1cd-28bc-493c-96e4-8d1d4225beb9" />
 
 ## 📂 Folder Structure
 
